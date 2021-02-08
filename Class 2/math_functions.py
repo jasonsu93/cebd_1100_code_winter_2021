@@ -7,6 +7,8 @@ a += 1
 #add 1 to a
 a -=1
 #subtract 1 from a
+
+# % is the remainder obtained after a division
 #modulus symbol
 b = 5 % 2
 print(b)
