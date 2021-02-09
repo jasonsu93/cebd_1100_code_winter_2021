@@ -3,22 +3,27 @@
 # When the user enters "-1" then stop and print the sum of all numbers entered
 
 sum_of_numbers = 0
-entered_value = ""
-
+# entered_value = ""
 #the_result = 0
 #while the_result != -1:
 #    the_result = int(input("number:"))
 #    sum_of_numbers=sum_of_numbers+the_result
 #print(sum_of_numbers+1)
 
+# while True:
+#     entered_value = int(input("enter a number >>"))
+#     if  entered_value == -1:
+#         break
+#     else:
+#         sum_of_numbers += entered_value
+
+
 while True:
-    entered_value = int(input("enter a number >>"))
-    if  entered_value == -1:
+    number = int(input("Enter a number >>>"))
+    if number == -1:
         break
-    else:
-        sum_of_numbers += entered_value
-
-
+    else: sum_of_numbers += number
+print("The sum of the numbers is {}".format(sum_of_numbers))
 
 
 

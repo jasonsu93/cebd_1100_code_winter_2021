@@ -10,3 +10,5 @@ if age >= MIN_AGE and age <= MAX_AGE:
 
 if customer_age_ok:
     print("This customer is able to use this product")
+
+
