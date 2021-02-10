@@ -18,12 +18,23 @@
 #     else:
 #         print(answer + "is not a multiple of 10")
 
+# answer = ""
+# while True:
+#     answer = input("Enter a number >>>")
+#     if answer == "q" or answer == "Q":
+#         break
+#     if int(answer) % 10 == 0:
+#         print(answer + "is a multiple of 10")
+#     else:
+#         print(answer + "is NOT a multiple of 10")
+
 answer = ""
 while True:
     answer = input("Enter a number >>>")
-    if answer == "q" or answer == "Q":
+    if answer[0:1].upper() == "Q":
         break
     if int(answer) % 10 == 0:
-        print(answer + "is a multiple of 10")
+        print(answer + " is a multiple of 10")
     else:
-        print(answer + "is NOT a multiple of 10")
+        print(answer + " is NOT a multiple of 10")
+
